@@ -1,18 +1,24 @@
-// Document Object Model (DOM) Manipulation
-console.log(document.getElementById("title"));
-console.log(document instanceof HTMLDocument);
+// Event handling
+document.addEventListener("DOMContentLoaded", function(event) {
+  function sayHello() {
+    this.textContent = "Said it!";
+    var name = document.getElementById("name").value; // Value is for accessin the property value
+    var message = "<h2>Hello " + name + "!</h2>";
 
-function sayHello() {
-  var name = document.getElementById("name").value; // Value is for accessin the property value
-  var message = "<h2>Hello " + name + "!</h2>";
+    document.getElementById("content").innerHTML = message;
 
-  document.getElementById("content").innerHTML = message;
+    if (name === "student") {
+      var title = document.querySelector("#title").textContent;
 
-  if (name === "student") {
-    var title = document.querySelector("#title").textContent;
+      title += " & Lovin' it!";
 
-    title += " & Lovin' it!";
-
-    document.querySelector("h1").textContent = title; 
+      document.querySelector("h1").textContent = title;
+    }
   }
-}
+
+  document.querySelector("button").addEventListener("click", sayHello);
+});
+
+// // Unobstrusive event binding
+
+// document.querySelector("button").onclick = sayHello;
