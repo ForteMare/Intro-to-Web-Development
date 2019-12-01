@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
   }
 
   document.querySelector("button").addEventListener("click", sayHello);
-
   document.querySelector("body").addEventListener("mousemove", function(event) {
     if (event.shiftKey === true) {
       console.log("x: " + event.clientX);
@@ -27,6 +26,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
   });
 });
+
+
 
 // // Unobstrusive event binding
 

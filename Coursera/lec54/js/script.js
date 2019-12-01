@@ -1,6 +1,6 @@
 // Event handling
 document.addEventListener("DOMContentLoaded", function(event) {
-  function sayHello() {
+  function sayHello(event) {
     this.textContent = "Said it!";
     var name = document.getElementById("name").value; // Value is for accessin the property value
     var message = "<h2>Hello " + name + "!</h2>";
