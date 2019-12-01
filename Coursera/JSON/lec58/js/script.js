@@ -1,9 +1,9 @@
-// Event handling
+// Event handling - This one surprisingly works
 document.addEventListener("DOMContentLoaded", function(event) {
   // Unobstrusive event binding
   document.querySelector("button").addEventListener("click", function() {
     // Call server to get the name
-    $ajaxUtils.sendGetRequest("/data/name.json", function(res) {
+    $ajaxUtils.sendGetRequest("../lec58/data/name.json", function(res) {
       var message = res.firstName + " " + res.lastName;
 
       if (res.likesChineseFood) {
