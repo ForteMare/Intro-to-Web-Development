@@ -1,8 +1,8 @@
-// Functions returning functions 
+// Functions returning functions
 function primary() {
   function secondary(m) {
     for (var i = 0; i < m; i++) {
-      console.log((i + 1) + ". Hello!");
+      console.log(i + 1 + ". Hello!");
     }
   }
 
@@ -11,4 +11,4 @@ function primary() {
 
 var test = primary();
 
-test(5); 
+test(5);
