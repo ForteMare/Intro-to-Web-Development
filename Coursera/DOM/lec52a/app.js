@@ -1,2 +1,0 @@
-lukaGreeter.sayHello();
-hansGreeter.sayHi();
