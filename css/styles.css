@@ -3,6 +3,12 @@
 html {
   font-size: 10px;
   font-family: "Spartan", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #c2c2a3;
 }
 
 h1 {
@@ -15,6 +21,7 @@ h1 {
   word-spacing: 10px;
 
   margin-top: 0;
+  margin-bottom: 0;
   padding: 25px;
 }
 
@@ -50,17 +57,57 @@ li > li {
   font-size: 0.85em;
 }
 
+/* Navigation Bar, Link Behavior */
+nav {
+  padding: 30px;
+  background-color: black;
+}
+nav ul {
+  padding: 0;
+  width: 100%;
+  margin-top: 8px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3;
+  color: black;
+}
+
+nav li:last-child a {
+  margin-right: 0;
+}
+
+nav a:link,
+nav a:visited,
+nav a:focus {
+  background: yellow;
+}
+
+nav a:hover {
+  background: orange;
+}
+
+nav a:active {
+  background: red;
+  color: white;
+}
+
 /* Page Design */
 
 header {
   background-color: #b32400;
   min-height: 150px;
   text-align: center;
-  margin: -8px;
-}
-
-body {
-  background-color: #c2c2a3;
 }
 
 .content {
