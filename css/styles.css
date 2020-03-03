@@ -31,15 +31,17 @@ h4 {
   font-weight: bold;
   letter-spacing: 2px;
   word-spacing: 3px;
+  text-transform: capitalize;
 }
 
 h2 {
-  font-size: 2.4rem;
+  font-size: 3rem;
+  margin-top: 80px;
   text-align: center;
 }
 
 h3 {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
 }
 
 h4 {
@@ -117,7 +119,7 @@ header {
   background-color: #f5f5ef;
   box-shadow: 5px 5px 8px black;
 
-  margin: 2vw;
+  margin: 5vw;
   padding: 5vw;
   padding-top: 30px;
   padding-bottom: 30px;
