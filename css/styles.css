@@ -70,6 +70,7 @@ nav ul {
   margin: 0;
 }
 
+/* >> Switch display properties between li and a! */
 nav li {
   display: inline;
 }
