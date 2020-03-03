@@ -57,15 +57,15 @@ li > li {
   font-size: 0.85em;
 }
 
-/* Navigation Bar, Link Behavior */
+/* Navigation Bar */
 nav {
-  padding: 30px;
+  /* padding: 30px; */
   background-color: black;
 }
 nav ul {
   padding: 0;
   width: 100%;
-  margin-top: 8px;
+  margin: 0;
 }
 
 nav li {
@@ -76,11 +76,14 @@ nav a {
   outline: none;
   text-decoration: none;
   display: inline-block;
-  width: 19.5%;
-  margin-right: 0.625%;
+  /* width: 19.5%;
+  margin-right: 0.625%; */
   text-align: center;
-  line-height: 3;
+  /* line-height: 3; */
   color: black;
+
+  padding: 30px;
+  margin: 15px;
 }
 
 nav li:last-child a {
