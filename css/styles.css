@@ -61,8 +61,7 @@ li > li {
 
 /* Navigation Bar */
 nav {
-  /* padding: 30px; */
-  background-color: black;
+  background-color: #ff7101;
 }
 nav ul {
   padding: 0;
@@ -110,7 +109,7 @@ nav a:active {
 /* Page Design */
 
 header {
-  background-color: #b32400;
+  background-color: #b12c00;
   min-height: 150px;
   text-align: center;
 }
