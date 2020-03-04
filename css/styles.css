@@ -60,6 +60,7 @@ li > li {
 }
 
 /* Navigation Bar */
+
 nav {
   background-color: #ff7101;
 }
@@ -85,8 +86,7 @@ nav a {
   padding: 30px;
   margin: 15px;
 }
-
-nav li:last-child a {
+*/ nav li:last-child a {
   margin-right: 0;
 }
 
