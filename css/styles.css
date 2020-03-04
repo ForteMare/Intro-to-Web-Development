@@ -61,14 +61,10 @@ li > li {
 
 /* Navigation Bar */
 
-nav {
-  background-color: #ff7101;
-}
-
 nav ul {
   padding: 0;
-  width: 100%;
   margin: 0;
+  background-color: #ff7101;
 }
 
 /* >> Switch display properties between li and a! */
@@ -77,16 +73,18 @@ nav li {
 }
 
 nav a {
-  outline: none;
   text-decoration: none;
   display: inline-block;
+
   text-align: center;
-  color: black;
+  color: #c2c2a3;
+  font-weight: bold;
+  outline: thick;
 
   padding: 30px;
   margin: 15px;
 }
-*/ nav li:last-child a {
+nav li:last-child a {
   margin-right: 0;
 }
 
