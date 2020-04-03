@@ -62,51 +62,24 @@ li > li {
 /* Navigation Bar */
 
 nav {
+  background-color: #fcd703;
+  height: 40px;
   position: sticky;
   top: 0;
   left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
-nav ul {
-  padding: 0;
-  margin: 0;
-  background-color: #ff7101;
-}
-
-/* >> Switch display properties between li and a! */
-nav li {
-  display: inline;
-}
-
-nav a {
-  text-decoration: none;
-  display: inline-block;
-
+nav > div {
+  border: 1px solid black;
   text-align: center;
-  color: #c2c2a3;
-  font-weight: bold;
-  outline: thick;
+  margin-right: 3%;
 
-  padding: 30px;
-  margin: 15px;
-}
-nav li:last-child a {
-  margin-right: 0;
-}
-
-nav a:link,
-nav a:visited,
-nav a:focus {
-  background: yellow;
-}
-
-nav a:hover {
-  background: orange;
-}
-
-nav a:active {
-  background: red;
-  color: white;
+  flex: 50px;
 }
 
 /* Page Design */
