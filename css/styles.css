@@ -59,10 +59,10 @@ li > li {
   font-size: 0.85em;
 }
 
-/* Navigation Bar */
+/* NAVBAR */
 
 nav {
-  background-color: #fcd703;
+  background-color: chocolate;
   height: 40px;
   position: sticky;
   top: 0;
@@ -70,19 +70,38 @@ nav {
 
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 nav > div {
-  border: 1px solid black;
+  /* border: 2px solid black; */
   text-align: center;
   margin-right: 3%;
 
-  flex: 50px;
+  /* flex: 50px; */
 }
 
-/* Page Design */
+/* MENU LINKS */
+nav > div > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #c2c2a3;
+  /* text-shadow: 2px 2px 2px black; */
+  font-size: 2.2rem;
+}
+
+nav > div > a:link {
+  color: green;
+}
+
+nav > div > a:visited {
+}
+
+nav > div > a:active {
+}
+
+/* PAGE DESIGN */
 
 header {
   background-color: #b12c00;
