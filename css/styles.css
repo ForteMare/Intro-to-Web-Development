@@ -1,4 +1,4 @@
-/* General style adjustments */
+/* GENERAL STYLE */
 
 html {
   font-size: 10px;
@@ -10,6 +10,8 @@ body {
   margin: 0;
   background-color: #c2c2a3;
 }
+
+/* TITLES & TOP OF THE PAGE */
 
 h1 {
   font-family: "Anton", sans-serif;
@@ -36,7 +38,8 @@ h4 {
 
 h2 {
   font-size: 3rem;
-  margin-top: 80px;
+  margin-top: 65px;
+  margin-bottom: 65px;
   text-align: center;
 }
 
@@ -48,6 +51,7 @@ h4 {
   font-size: 2rem;
 }
 
+/* NOTE: This is questionable */
 p,
 ol,
 ul,
@@ -100,7 +104,7 @@ nav > div > a:active {
   background-color: #c2c2a3;
 }
 
-/* PAGE DESIGN */
+/* PAGE MAIN CONTENT DESIGN */
 
 header {
   background-color: #b12c00;
@@ -113,11 +117,17 @@ header {
   color: white;
   font-weight: bold;
 
-  margin: 5vw;
-  padding: 5vw;
+  margin-left: 5vw;
+  padding: 4vw;
   padding-top: 30px;
   padding-bottom: 30px;
   max-width: 175px;
+}
+
+.pagenav > h4 {
+  /* padding-left: 40px; */
+  color: white;
+  font-weight: bold;
 }
 
 .content {
