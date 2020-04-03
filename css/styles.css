@@ -95,9 +95,6 @@ nav > div > a:link {
   color: green;
 }
 
-nav > div > a:visited {
-}
-
 nav > div > a:active {
   color: chocolate;
   background-color: #c2c2a3;
